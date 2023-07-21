@@ -1,0 +1,79 @@
+header {
+    background-color:  #1C1E53;
+    .container {       
+        max-width: 1280px;
+        width: 100%;
+        height: 92px;
+        margin: 0 auto;     
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            height: 73px;
+            width: 118px;
+            object-fit: contain;
+        }
+        img:hover {
+            cursor: pointer;
+        }
+        nav {
+            width: 706px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & > button {
+                width: 185px;
+                height: 60px;
+                border-radius: 41px;
+                border:2px solid rgba(244, 246, 252, 0.20);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #1C1E53;
+                transition-duration: 0.3s;
+                transition-delay: 0.08s;
+                a {
+                    color: var(--white, #FFF);
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28px;
+                }
+            }
+            button:hover {
+                cursor: pointer;
+                background: #FDE4A6;
+            }
+            ul {
+                display: flex;
+                justify-content: space-between;
+                width: 473px;
+                a.page {
+                    color: var(--white, #FFF);
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28px;
+                }
+                a {
+                    color: #BBBBCB;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28px; /* 175% */
+                }
+                a:hover {
+                    cursor: pointer;
+                    color: #d8d8ff;
+                } 
+                a.page:hover {
+                    cursor: pointer;
+                    color: var(--white, #FFF);
+                }
+            }
+        }
+    }
+}
