@@ -1,0 +1,138 @@
+footer {
+    margin-top: 100px;
+    background-color: $headerbackcolor;
+    padding-top: 101px;
+    & > .container {
+        @include container;
+        & > .footerdiv1 {
+            width: 1058px;
+            display: flex;
+            justify-content: space-between;
+            .wrap1 {
+                width: 517px;
+                img {
+                    height: 35px;
+                    width: 118px;
+                    object-fit: cover;
+                    margin-bottom: 23.59px;
+                }
+                h5 {
+                    color: $white;
+                    font-family: $font;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28px; 
+                    opacity: 0.800000011920929;
+                    width: 399px;
+                    height: 56px;
+                    margin-bottom: 86px;
+                }
+                & > div {
+                    width: 100%;
+                    height: 95px;
+                    background-color: $yellow;
+                    padding: 18px 0 17px 37px;
+                    div {
+                        height: 61px;
+                        width: 181px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        display: inline-block;
+                        margin-right: 40px;
+                        h4 {
+                            color: $dark-blue;
+                            font-family: $font;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 32px; /* 177.778% */
+                        }
+                        a {
+                            color: $dark-blue;
+                            font-family: $font;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 28px;
+                            opacity: 0.800000011920929;
+                        }
+                    }
+                }
+            }
+            .wrap2 {
+                height: 206px;
+                width: 399px;
+                h2 {
+                    color: #FFF;
+                    font-family: $font;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 64px;
+                    margin-bottom: 14px;
+                }
+                p {
+                    width: 100%;
+                    height: 84px;
+                    color: $grey;
+                    font-family: $font;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    opacity: 0.800000011920929;
+                    margin-bottom: 28px;
+                }
+                & > .medias {
+                    .fa-brands {
+                        margin-right: 26.67px;
+                    }
+                    .fa-brands:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .footer2 {
+        width: 100%;
+        height: 92px;
+        background-color: #FFFFFF;
+        div {
+            @include container;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            h5 {
+                color: #282938;
+                font-family: $font;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; 
+            }
+            ul {
+                @extend %ul;
+                a.page {
+                   @extend %arefresh;
+                   color: $dark-blue;
+                }
+                a {
+                    @extend %aswitch;
+                    color: $dark-blue;
+                    
+                }
+                a:hover {
+                    @extend %hovereda;
+                } 
+                a.page:hover {
+                    @extend %hovereda; 
+                }
+            }
+        }
+    }   
+}

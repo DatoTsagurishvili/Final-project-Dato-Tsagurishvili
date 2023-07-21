@@ -1,0 +1,22 @@
+%ul {
+    display: flex;
+    justify-content: space-between;
+    width: 473px;
+}
+%arefresh {
+    font-family: $font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+%aswitch {
+    font-family: $font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+%hovereda {
+    cursor: pointer;
+}

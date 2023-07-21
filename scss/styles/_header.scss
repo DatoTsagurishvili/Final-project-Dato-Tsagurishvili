@@ -1,16 +1,14 @@
 header {
-    background-color:  #1C1E53;
+    background-color:  $headerbackcolor;
+    padding: 16px 0;
     .container {       
-        max-width: 1280px;
-        width: 100%;
-        height: 92px;
-        margin: 0 auto;     
+        @include container;     
         display: flex;
         justify-content: space-between;
         align-items: center;
         img {
-            height: 73px;
-            width: 118px;
+            height: 58.4px;
+            width: 94.4px;
             object-fit: contain;
         }
         img:hover {
@@ -33,8 +31,8 @@ header {
                 transition-duration: 0.3s;
                 transition-delay: 0.08s;
                 a {
-                    color: var(--white, #FFF);
-                    font-family: Poppins;
+                    color: $white;
+                    font-family: $font;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 500;
@@ -43,35 +41,23 @@ header {
             }
             button:hover {
                 cursor: pointer;
-                background: #FDE4A6;
             }
             ul {
-                display: flex;
-                justify-content: space-between;
-                width: 473px;
+                @extend %ul;
                 a.page {
-                    color: var(--white, #FFF);
-                    font-family: Poppins;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 28px;
+                    @extend %arefresh;
+                    color: $white;
+            
                 }
                 a {
-                    color: #BBBBCB;
-                    font-family: Poppins;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 28px; /* 175% */
+                   @extend %aswitch;
+                   color: #BBBBCB;
                 }
                 a:hover {
-                    cursor: pointer;
-                    color: #d8d8ff;
+                    @extend %hovereda;
                 } 
                 a.page:hover {
-                    cursor: pointer;
-                    color: var(--white, #FFF);
+                   @extend %hovereda;
                 }
             }
         }
