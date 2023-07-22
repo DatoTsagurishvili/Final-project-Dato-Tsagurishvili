@@ -93,10 +93,8 @@ footer .footer2 div ul a.page:hover, footer .footer2 div ul a:hover, header .con
 
 section.section1 > div.container > .texts > .buttons .b1 h6, section.section1 > div.container > .texts > .buttons .b1 {
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
           transition-duration: 0.2s;
   -webkit-transition-delay: 0.15s;
-       -o-transition-delay: 0.15s;
           transition-delay: 0.15s;
 }
 
@@ -155,10 +153,8 @@ header .container nav > button {
           align-items: center;
   background-color: #1C1E53;
   -webkit-transition-duration: 0.3s;
-       -o-transition-duration: 0.3s;
           transition-duration: 0.3s;
   -webkit-transition-delay: 0.08s;
-       -o-transition-delay: 0.08s;
           transition-delay: 0.08s;
 }
 header .container nav > button a {
@@ -449,6 +445,116 @@ section.section2 > div.container > div div.goals > div div.texts p {
 section.section2 > div.container > div div.goals .bottomdiv {
   -ms-flex-item-align: end;
       align-self: flex-end;
+}
+
+section.section3 div.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+section.section3 div.container h5 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 64px;
+}
+section.section3 div.container div.blogs {
+  width: 100%;
+  height: 581px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section.section3 div.container div.blogs div.column {
+  width: 405px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section.section3 div.container div.blogs div.column div.photo {
+  width: 100%;
+  height: 285px;
+  border: 2px solid black;
+}
+section.section3 div.container div.blogs div.column div.text {
+  width: 100%;
+  height: 224px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section.section3 div.container div.blogs div.column div.text h6 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.6999999881;
+}
+section.section3 div.container div.blogs div.column div.text h1 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+section.section3 div.container div.blogs div.column div.text p {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6999999881;
+}
+section.section3 div.container div.blogs div.column div.arrow {
+  width: 123px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.section3 div.container div.blogs div.column div.arrow h3 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+section.section3 div.container div.blogs div.column div.arrow .fa-solid {
+  color: var(--dark-blue, #282938);
+}
+section.section3 div.container div.blogs div.column div.arrow:hover {
+  cursor: pointer;
 }
 
 footer {
