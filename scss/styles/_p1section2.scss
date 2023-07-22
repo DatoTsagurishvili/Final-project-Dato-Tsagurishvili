@@ -1,0 +1,122 @@
+section.section2 {
+    background-color: $grey;
+    padding: 128px 0 129px;
+    & > div.container {
+        @include container;
+        & > div {
+            display: flex;
+            justify-content: space-between;
+            width: 1203px;
+            & > div.title {
+                width: 405px;
+                height: 184px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h6 {
+                    color: $dark-blue;
+                    font-family: $font;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 64px;
+                }
+                p {
+                    color: $dark-blue;
+                    font-family: $font;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    opacity: 0.699999988079071;
+                }
+                & > div {
+                    width: 215px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h4 {
+                        color: $royalblue;
+                        font-family: $font;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 32px;
+                    }
+                    .fa-solid {
+                        color: $royalblue;
+                    }
+                }
+                div.link:hover {
+                    cursor: pointer;
+                    h4{
+                        color: $hroyalblue;
+                    }
+                    .fa-solid {
+                        color: $hroyalblue;
+                    }
+                }
+            } 
+            div.goals {
+                width: 631px;
+                height: 404px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                & > div {
+                    width: 300px;
+                    height: 178px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #2405f2;
+                        border-radius: 8px;
+                        h1 {
+                            position: absolute;
+                            z-index: 100;
+                            color: $white;
+                            font-family: $font;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 32px; 
+                        }
+                    } 
+                    div.texts {
+                        height: 112px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        h3 {
+                            height: 48px;
+                            color: $dark-blue;
+                            font-family: $font;
+                            font-size: 32px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 48px;
+                        }
+                        p {
+                            color: $dark-blue;
+                            font-family: $font;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 28px; 
+                        }
+                    }                  
+                }
+                .bottomdiv {
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+}

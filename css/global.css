@@ -283,6 +283,174 @@ section.section1 > div.container .photo {
   border: 4px solid black;
 }
 
+section.section2 {
+  background-color: var(--grey, #F4F6FC);
+  padding: 128px 0 129px;
+}
+section.section2 > div.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+section.section2 > div.container > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1203px;
+}
+section.section2 > div.container > div > div.title {
+  width: 405px;
+  height: 184px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section.section2 > div.container > div > div.title h6 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+section.section2 > div.container > div > div.title p {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6999999881;
+}
+section.section2 > div.container > div > div.title > div {
+  width: 215px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.section2 > div.container > div > div.title > div h4 {
+  color: #2405F2;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+section.section2 > div.container > div > div.title > div .fa-solid {
+  color: #2405F2;
+}
+section.section2 > div.container > div > div.title div.link:hover {
+  cursor: pointer;
+}
+section.section2 > div.container > div > div.title div.link:hover h4 {
+  color: #1C1E53;
+}
+section.section2 > div.container > div > div.title div.link:hover .fa-solid {
+  color: #1C1E53;
+}
+section.section2 > div.container > div div.goals {
+  width: 631px;
+  height: 404px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+section.section2 > div.container > div div.goals > div {
+  width: 300px;
+  height: 178px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section.section2 > div.container > div div.goals > div .icon {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2405f2;
+  border-radius: 8px;
+}
+section.section2 > div.container > div div.goals > div .icon h1 {
+  position: absolute;
+  z-index: 100;
+  color: var(--white, #FFF);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+section.section2 > div.container > div div.goals > div div.texts {
+  height: 112px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section.section2 > div.container > div div.goals > div div.texts h3 {
+  height: 48px;
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+section.section2 > div.container > div div.goals > div div.texts p {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+section.section2 > div.container > div div.goals .bottomdiv {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
 footer {
   margin-top: 100px;
   background-color: #1C1E53;
