@@ -1,0 +1,85 @@
+section.section1 {
+    background-color: $headerbackcolor;
+    padding: 126px 0 128px;
+    & > div.container {
+        @include container;
+        display: flex;
+        justify-content: space-between;
+      & > .texts {
+        width: 582px;
+        h1 {
+            color: $white;
+            font-family: $font;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 74px;
+            margin-bottom: 24px; 
+        }
+        p {
+            color: $white;
+            font-family: $font;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; 
+            margin-bottom: 48px;
+        }
+        & > .buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 408px;
+            .b1 {
+                background-color: $yellow;
+                width: 230px;
+                height: 64px;
+                border-radius: 41px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                @extend %hoverbutton;
+                h6 {
+                    color: #1B1C2B;
+                    font-family: $font2;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 32px;
+                    @extend %hoverbutton;
+                } 
+            }
+            .b1:hover {
+                cursor: pointer;
+                background-color: $hyellow;
+                h6 {
+                    color: $hbuttontext;
+                }
+            }
+            .b2 {
+                background-color: $headerbackcolor;
+                width: 138px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h6 {
+                    color: $white;
+                    font-family: $font;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28px; 
+                }
+            }
+            .b2:hover {
+                cursor: pointer;
+            }
+        }
+
+      }
+      .photo {
+        width: 638px;
+        height: 362px;
+        border: 4px solid black;
+      }
+    }
+}
