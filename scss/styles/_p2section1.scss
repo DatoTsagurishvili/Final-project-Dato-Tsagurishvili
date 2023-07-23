@@ -1,4 +1,5 @@
 section.p2section1 {
+    margin: 128px 0 128px;
     & > div.container {
         @include container;
         & > div.texts {

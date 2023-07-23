@@ -558,6 +558,9 @@ section.section3 div.container div.blogs div.column div.arrow:hover {
   cursor: pointer;
 }
 
+section.p2section1 {
+  margin: 128px 0 128px;
+}
 section.p2section1 > div.container {
   max-width: 1280px;
   width: 100%;
@@ -610,6 +613,66 @@ section.p2section1 > div.container > div.photo {
   height: 340px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  border: 2px solid black;
+}
+
+section.p2section2 {
+  background-color: var(--accent, #EEF4FA);
+  padding: 128px 0 128px;
+}
+section.p2section2 > div.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+section.p2section2 > div.container > div.card {
+  margin-bottom: 96px;
+}
+section.p2section2 > div.container > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.p2section2 > div.container > div > div.text {
+  width: 623px;
+}
+section.p2section2 > div.container > div > div.text h6 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+section.p2section2 > div.container > div > div.text h1 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+section.p2section2 > div.container > div > div.text p {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6999999881;
+  width: 100%;
+}
+section.p2section2 > div.container > div > div.image {
+  width: 515px;
+  height: 336px;
   border: 2px solid black;
 }
 
