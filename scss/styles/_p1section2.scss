@@ -1,6 +1,7 @@
 section.section2 {
     background-color: $grey;
     padding: 128px 0 129px;
+    margin-bottom: 128px;
     & > div.container {
         @include container;
         & > div {

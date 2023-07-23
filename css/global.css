@@ -92,8 +92,8 @@ footer .footer2 div ul a.page:hover, footer .footer2 div ul a:hover, header .con
 }
 
 section.section1 > div.container > .texts > .buttons .b1 h6, section.section1 > div.container > .texts > .buttons .b1 {
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
   -webkit-transition-delay: 0.15s;
           transition-delay: 0.15s;
 }
@@ -282,6 +282,7 @@ section.section1 > div.container .photo {
 section.section2 {
   background-color: var(--grey, #F4F6FC);
   padding: 128px 0 129px;
+  margin-bottom: 128px;
 }
 section.section2 > div.container {
   max-width: 1280px;
@@ -555,6 +556,61 @@ section.section3 div.container div.blogs div.column div.arrow .fa-solid {
 }
 section.section3 div.container div.blogs div.column div.arrow:hover {
   cursor: pointer;
+}
+
+section.p2section1 > div.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+section.p2section1 > div.container > div.texts {
+  background-color: #F4F5F5;
+  padding: 80px 109px 80px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+section.p2section1 > div.container > div.texts h2 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+section.p2section1 > div.container > div.texts > div {
+  width: 515px;
+}
+section.p2section1 > div.container > div.texts > div h1 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+section.p2section1 > div.container > div.texts > div p {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 100%;
+}
+section.p2section1 > div.container > div.photo {
+  width: 100%;
+  height: 340px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border: 2px solid black;
 }
 
 footer {

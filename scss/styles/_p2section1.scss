@@ -1,0 +1,48 @@
+section.p2section1 {
+    & > div.container {
+        @include container;
+        & > div.texts {
+            background-color: #F4F5F5;
+            padding: 80px 109px 80px 80px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap-reverse;
+            h2 {
+                color: $dark-blue;
+                font-family: $font;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px;
+                margin-bottom: 4px;
+            }
+            & > div {
+                width: 515px;
+                h1 {
+                    color: $dark-blue;
+                    font-family: $font;
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 56px;
+                    margin-bottom: 16px; 
+                }
+                p {
+                    color: $dark-blue;
+                    font-family: $font;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    width: 100%;
+                }
+            }
+        }
+        & > div.photo {
+            width: 100%;
+            height: 340px;
+            flex-shrink: 0;
+            border: 2px solid black;
+        }
+    }
+}
