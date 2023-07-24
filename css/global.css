@@ -94,8 +94,8 @@ footer .footer2 div ul a.page:hover, footer .footer2 div ul a:hover, header .con
 section.contactsection div.forms > div button, section.section1 > div.container > .texts > .buttons .b1 h6, section.section1 > div.container > .texts > .buttons .b1 {
   -webkit-transition-duration: 0.1s;
           transition-duration: 0.1s;
-  -webkit-transition-delay: 0.15s;
-          transition-delay: 0.15s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
 header {
@@ -104,8 +104,9 @@ header {
 }
 header .container {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,7 +181,7 @@ section.section1 {
 }
 section.section1 > div.container {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -286,7 +287,7 @@ section.section2 {
 }
 section.section2 > div.container {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 section.section2 > div.container > div {
@@ -450,7 +451,7 @@ section.section2 > div.container > div div.goals .bottomdiv {
 
 section.section3 div.container {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 section.section3 div.container h5 {
@@ -563,7 +564,7 @@ section.p2section1 {
 }
 section.p2section1 > div.container {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 section.p2section1 > div.container > div.texts {
@@ -622,7 +623,7 @@ section.p2section2 {
 }
 section.p2section2 > div.container {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 section.p2section2 > div.container > div.card {
@@ -681,7 +682,7 @@ section.contactsection {
 }
 section.contactsection div.title {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   max-width: 562px;
   width: 95%;
@@ -707,7 +708,7 @@ section.contactsection div.title h5 {
 }
 section.contactsection div.forms {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   max-width: 1061px;
   padding: 55px 0 69px;
@@ -844,6 +845,224 @@ section.contactsection div.forms > div button:hover {
   background: #535460;
 }
 
+section.artsect2 {
+  margin-bottom: 64px;
+}
+section.artsect2 div.container {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.artsect2 div.container h5 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 64px;
+}
+section.artsect2 div.container div.blogs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+section.artsect2 div.container div.blogs div.column {
+  width: 405px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 64px;
+}
+section.artsect2 div.container div.blogs div.column div.photo {
+  width: 100%;
+  height: 285px;
+  border: 2px solid black;
+}
+section.artsect2 div.container div.blogs div.column div.text {
+  width: 100%;
+  height: 224px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section.artsect2 div.container div.blogs div.column div.text h6 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.6999999881;
+}
+section.artsect2 div.container div.blogs div.column div.text h1 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+section.artsect2 div.container div.blogs div.column div.text p {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6999999881;
+}
+section.artsect2 div.container div.blogs div.column div.arrow {
+  width: 123px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.artsect2 div.container div.blogs div.column div.arrow h3 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+section.artsect2 div.container div.blogs div.column div.arrow .fa-solid {
+  color: var(--dark-blue, #282938);
+}
+section.artsect2 div.container div.blogs div.column div.arrow:hover {
+  cursor: pointer;
+}
+
+section.artsect1 {
+  margin: 128px 0 128px;
+}
+section.artsect1 > div {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.artsect1 > div h1 {
+  color: var(--dark-blue, #282938);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+  margin-bottom: 16px;
+}
+section.artsect1 > div > div.texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 359px;
+  width: 97%;
+  margin-bottom: 32px;
+}
+section.artsect1 > div > div.texts h6 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  opacity: 0.8700000048;
+}
+section.artsect1 > div > div.texts h5 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+section.artsect1 > div > div.photo {
+  border: 2px solid black;
+  width: 100%;
+  height: 477px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 48px;
+}
+section.artsect1 > div p {
+  max-width: 831px;
+  width: 97%;
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 16px;
+  opacity: 0.6999999881;
+}
+section.artsect1 > div h2 {
+  color: #2405F2;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+section.artsect1 > div h2:hover {
+  cursor: pointer;
+  color: #1C1E53;
+}
+
 footer {
   margin-top: 100px;
   background-color: #1C1E53;
@@ -851,11 +1070,12 @@ footer {
 }
 footer > .container {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 footer > .container > .footerdiv1 {
-  width: 1058px;
+  max-width: 1058px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -962,7 +1182,7 @@ footer .footer2 {
 }
 footer .footer2 div {
   max-width: 1280px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;

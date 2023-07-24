@@ -5,7 +5,8 @@ footer {
     & > .container {
         @include container;
         & > .footerdiv1 {
-            width: 1058px;
+            max-width: 1058px;
+            width: 100%;
             display: flex;
             justify-content: space-between;
             .wrap1 {

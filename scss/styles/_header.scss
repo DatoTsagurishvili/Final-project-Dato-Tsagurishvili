@@ -2,7 +2,8 @@ header {
     background-color:  $headerbackcolor;
     padding: 16px 0;
     .container {       
-        @include container;     
+        @include container; 
+        width: 100%;    
         display: flex;
         justify-content: space-between;
         align-items: center;
