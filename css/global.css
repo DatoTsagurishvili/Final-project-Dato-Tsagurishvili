@@ -320,7 +320,8 @@ section.section2 > div.container > div {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 1203px;
+  max-width: 1203px;
+  width: 100%;
 }
 section.section2 > div.container > div > div.title {
   width: 405px;
