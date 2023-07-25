@@ -3,7 +3,7 @@ header {
     padding: 16px 0;
     .container {       
         @include container; 
-        width: 100%;    
+        width: 98%;    
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -20,7 +20,13 @@ header {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            @media (max-width:860px) {
+                width: auto;
+            }
             & > button {
+                @media (max-width:860px) {
+                    display: none;
+                }
                 width: 185px;
                 height: 60px;
                 border-radius: 41px;
@@ -43,7 +49,16 @@ header {
             button:hover {
                 cursor: pointer;
             }
+            .fa-bars {
+                display: none;
+                @media (max-width:860px) {
+                    display: inline-block;
+                }
+            }
             ul {
+                @media (max-width:860px) {
+                    display: none;
+                }
                 @extend %ul;
                 a.page {
                     @extend %arefresh;

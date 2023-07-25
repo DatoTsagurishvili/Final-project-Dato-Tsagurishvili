@@ -92,10 +92,10 @@ footer .footer2 div ul a.page:hover, footer .footer2 div ul a:hover, header .con
 }
 
 section.contactsection div.forms > div button, section.section1 > div.container > .texts > .buttons .b1 h6, section.section1 > div.container > .texts > .buttons .b1 {
-  -webkit-transition-duration: 0.1s;
-          transition-duration: 0.1s;
-  -webkit-transition-delay: 0.1s;
-          transition-delay: 0.1s;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-delay: 0.2;
+          transition-delay: 0.2;
 }
 
 header {
@@ -106,7 +106,7 @@ header .container {
   max-width: 1280px;
   width: 95%;
   margin: 0 auto;
-  width: 100%;
+  width: 98%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,6 +138,11 @@ header .container nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 860px) {
+  header .container nav {
+    width: auto;
+  }
+}
 header .container nav > button {
   width: 185px;
   height: 60px;
@@ -158,6 +163,11 @@ header .container nav > button {
   -webkit-transition-delay: 0.08s;
           transition-delay: 0.08s;
 }
+@media (max-width: 860px) {
+  header .container nav > button {
+    display: none;
+  }
+}
 header .container nav > button a {
   color: var(--white, #FFF);
   font-family: "Poppins", sans-serif;
@@ -168,6 +178,19 @@ header .container nav > button a {
 }
 header .container nav button:hover {
   cursor: pointer;
+}
+header .container nav .fa-bars {
+  display: none;
+}
+@media (max-width: 860px) {
+  header .container nav .fa-bars {
+    display: inline-block;
+  }
+}
+@media (max-width: 860px) {
+  header .container nav ul {
+    display: none;
+  }
 }
 header .container nav ul a.page {
   color: var(--white, #FFF);
