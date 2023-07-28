@@ -243,6 +243,18 @@ section.section1 > div.container > .texts h1 {
     width: 100%;
   }
 }
+@media (max-width: 440px) {
+  section.section1 > div.container > .texts h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 440px) {
+  section.section1 > div.container > .texts h1 {
+    font-size: 27px;
+    line-height: 37px;
+  }
+}
 section.section1 > div.container > .texts p {
   color: var(--white, #FFF);
   font-family: "Poppins", sans-serif;
@@ -644,6 +656,13 @@ section.section3 div.container div.blogs {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media (max-width: 1315px) {
+  section.section3 div.container div.blogs {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
 section.section3 div.container div.blogs div.column {
   width: 405px;
   height: 100%;
@@ -684,6 +703,11 @@ section.section3 div.container div.blogs div.column div.text {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 440px) {
+  section.section3 div.container div.blogs div.column div.text {
+    height: 100%;
+  }
+}
 section.section3 div.container div.blogs div.column div.text h6 {
   color: var(--dark-blue, #282938);
   font-family: "Poppins", sans-serif;
@@ -692,6 +716,7 @@ section.section3 div.container div.blogs div.column div.text h6 {
   font-weight: 500;
   line-height: 28px;
   opacity: 0.6999999881;
+  height: 100%;
 }
 section.section3 div.container div.blogs div.column div.text h1 {
   color: var(--dark-blue, #282938);
@@ -700,6 +725,13 @@ section.section3 div.container div.blogs div.column div.text h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 36px;
+  height: 100%;
+}
+@media (max-width: 440px) {
+  section.section3 div.container div.blogs div.column div.text h1 {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
 section.section3 div.container div.blogs div.column div.text p {
   color: var(--dark-blue, #282938);
@@ -709,6 +741,7 @@ section.section3 div.container div.blogs div.column div.text p {
   font-weight: 400;
   line-height: 28px;
   opacity: 0.6999999881;
+  height: 100%;
 }
 section.section3 div.container div.blogs div.column div.arrow {
   width: 123px;
@@ -735,6 +768,11 @@ section.section3 div.container div.blogs div.column div.arrow .fa-solid {
 }
 section.section3 div.container div.blogs div.column div.arrow:hover {
   cursor: pointer;
+}
+@media (max-width: 1315px) {
+  section.section3 div.container div.blogs div.column2 {
+    margin: 0 auto;
+  }
 }
 
 section.p2section1 {
