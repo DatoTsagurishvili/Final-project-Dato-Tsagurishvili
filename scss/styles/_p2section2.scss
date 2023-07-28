@@ -41,10 +41,10 @@ section.p2section2 {
                     width: 100%;
                 }
             }
-            & > div.image {
+            & > .image {
                 width: 515px;
                 height: 336px;
-                border: 2px solid black;
+                object-fit: cover;
             }
         }
     }

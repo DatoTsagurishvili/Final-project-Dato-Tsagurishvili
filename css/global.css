@@ -825,12 +825,11 @@ section.p2section1 > div.container > div.texts > div p {
   line-height: 28px;
   width: 100%;
 }
-section.p2section1 > div.container > div.photo {
+section.p2section1 > div.container > .photo {
   width: 100%;
   height: 340px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  border: 2px solid black;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 section.p2section2 {
@@ -887,10 +886,11 @@ section.p2section2 > div.container > div > div.text p {
   opacity: 0.6999999881;
   width: 100%;
 }
-section.p2section2 > div.container > div > div.image {
+section.p2section2 > div.container > div > .image {
   width: 515px;
   height: 336px;
-  border: 2px solid black;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 section.contactsection {
