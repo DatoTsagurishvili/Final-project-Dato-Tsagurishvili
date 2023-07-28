@@ -634,7 +634,7 @@ section.section3 div.container h5 {
 }
 section.section3 div.container div.blogs {
   width: 100%;
-  height: 581px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -660,7 +660,7 @@ section.section3 div.container div.blogs div.column {
 }
 @media (max-width: 1315px) {
   section.section3 div.container div.blogs div.column {
-    margin-right: 15px;
+    margin: 0 15px 16px 0;
   }
 }
 section.section3 div.container div.blogs div.column img {
