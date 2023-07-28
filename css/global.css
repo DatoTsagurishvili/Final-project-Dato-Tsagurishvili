@@ -356,6 +356,7 @@ section.section2 {
   background-color: var(--grey, #F4F6FC);
   padding: 128px 0 129px;
   margin-bottom: 128px;
+  width: 100%;
 }
 section.section2 > div.container {
   max-width: 1280px;
@@ -371,6 +372,7 @@ section.section2 > div.container > div {
           justify-content: space-between;
   max-width: 1203px;
   width: 100%;
+  height: 100%;
 }
 @media (max-width: 1140px) {
   section.section2 > div.container > div {
@@ -519,6 +521,14 @@ section.section2 > div.container > div div.goals {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: 100%;
+}
+@media (max-width: 530px) {
+  section.section2 > div.container > div div.goals {
+    -webkit-box-align: centerS;
+        -ms-flex-align: centerS;
+            align-items: centerS;
+  }
 }
 section.section2 > div.container > div div.goals > div {
   max-width: 300px;
@@ -534,11 +544,12 @@ section.section2 > div.container > div div.goals > div {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: epx solid black;
 }
 @media (max-width: 640px) {
   section.section2 > div.container > div div.goals > div {
     max-width: 250px;
+    height: 100%;
+    margin-bottom: 16px;
   }
 }
 section.section2 > div.container > div div.goals > div .icon {
