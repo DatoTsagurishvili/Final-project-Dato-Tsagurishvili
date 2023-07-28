@@ -739,6 +739,12 @@ section.contactsection div.forms {
   background-color: var(--grey, #F4F6FC);
   border-radius: 12px;
 }
+@media (max-width: 976px) {
+  section.contactsection div.forms {
+    max-width: 511px;
+    width: 97%;
+  }
+}
 section.contactsection div.forms > div {
   margin: 0 auto;
   display: -webkit-box;
@@ -752,6 +758,13 @@ section.contactsection div.forms > div {
   max-width: 908px;
   width: 97%;
 }
+@media (max-width: 976px) {
+  section.contactsection div.forms > div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 section.contactsection div.forms > div form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -761,6 +774,12 @@ section.contactsection div.forms > div form {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 24px;
+  border: 2px solid black;
+}
+@media (max-width: 976px) {
+  section.contactsection div.forms > div form {
+    width: 100%;
+  }
 }
 section.contactsection div.forms > div form label {
   color: #000;
@@ -817,6 +836,11 @@ section.contactsection div.forms > div form input {
   gap: 10px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.12);
+}
+@media (max-width: 976px) {
+  section.contactsection div.forms > div form input {
+    width: 100%;
+  }
 }
 section.contactsection div.forms > div form.textarea {
   width: 100%;

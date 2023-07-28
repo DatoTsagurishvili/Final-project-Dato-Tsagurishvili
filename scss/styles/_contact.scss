@@ -1,10 +1,12 @@
 section.contactsection {
     padding: 128px 0 128px;
+    
     div.title {
         @include container;
         max-width: 562px;
         width: 95%;
         margin-bottom: 64px;
+       
         h1 {
             color: $dark-blue;
             text-align: center;
@@ -30,6 +32,11 @@ section.contactsection {
         padding: 55px 0 69px;    
         background-color: $grey;
         border-radius: 12px;
+        @media (max-width:976px) {
+            max-width: 511px;
+           width: 97%;
+        }
+        
         & > div {
             margin: 0 auto;
             display: flex;
@@ -37,10 +44,19 @@ section.contactsection {
             flex-wrap: wrap;
             max-width: 908px;
             width: 97%;
+            @media (max-width:976px) {
+                justify-content: center;
+            }
             form {
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 24px;
+                border: 2px solid black;
+                @media (max-width:976px) {
+                    
+                    width: 100%;
+                }
+                
                 label {
                     color: #000;
                     font-family: $font;
@@ -64,6 +80,9 @@ section.contactsection {
                     gap: 10px;
                     border-radius: 8px;
                     border: 1px solid rgba(0, 0, 0, 0.12);
+                    @media (max-width:976px) {
+                        width: 100%;
+                    }
                 }
              
             }
