@@ -9,12 +9,56 @@ section.section2 {
             justify-content: space-between;
             max-width:1203px;
             width: 100%;
+            @media (max-width:1140px) {
+                flex-direction: column-reverse;
+                align-items: center;
+                justify-content: center;
+            }
+            & > h6 {
+                color: $dark-blue;
+                font-family: $font;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 64px;
+                display: none; 
+                @media (max-width:1140px) {
+                    display: inline-block;
+                    margin-bottom: 16px;
+                    text-align: center;
+                }
+              
+            }
+            & >  p {
+                color: $dark-blue;
+                font-family: $font;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                max-width:405px;
+                width: 100%;
+                opacity: 0.699999988079071;
+                display: none;
+                @media (max-width:1140px) {
+                    display: inline-block;
+                    margin-bottom: 16px;
+                    text-align: center;
+                }
+               
+            }
             & > div.title {
-                width: 405px;
+                max-width: 405px;
+                width: 100%;
                 height: 184px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                @media (max-width:1140px) {
+                    width: auto;
+                    height: auto;
+                }
+
                 h6 {
                     color: $dark-blue;
                     font-family: $font;
@@ -22,6 +66,9 @@ section.section2 {
                     font-style: normal;
                     font-weight: 600;
                     line-height: 64px;
+                    @media (max-width:1140px) {
+                        display: none;
+                    }
                 }
                 p {
                     color: $dark-blue;
@@ -31,12 +78,18 @@ section.section2 {
                     font-weight: 400;
                     line-height: 28px;
                     opacity: 0.699999988079071;
+                    @media (max-width:1140px) {
+                        display: none;
+                    }
                 }
-                & > div {
-                    width: 215px;
+                & > div.link {
+                    max-width: 215px;
+                    width: 100%;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    
+                    
                     h4 {
                         color: $royalblue;
                         font-family: $font;
@@ -44,6 +97,9 @@ section.section2 {
                         font-style: normal;
                         font-weight: 500;
                         line-height: 32px;
+                        @media (max-width:1140px) {
+                            margin-right: 8px;
+                        }
                     }
                     .fa-solid {
                         color: $royalblue;
@@ -60,17 +116,23 @@ section.section2 {
                 }
             } 
             div.goals {
-                width: 631px;
+                max-width: 631px;
+                width: 100%;
                 height: 404px;
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
                 & > div {
-                    width: 300px;
+                    max-width: 300px;
+                    width: 80%;
                     height: 178px;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    border: epx solid black;
+                    @media (max-width:640px) {
+                        max-width: 250px;
+                    }
                     .icon {
                         width: 50px;
                         height: 50px;
@@ -117,6 +179,10 @@ section.section2 {
                 }
                 .bottomdiv {
                     align-self: flex-end;
+                    @media (max-width:1140px) {
+                        margin-bottom: 32px;
+                    }
+                    
                 }
             }
         }

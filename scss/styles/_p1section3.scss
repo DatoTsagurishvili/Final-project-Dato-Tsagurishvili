@@ -15,16 +15,22 @@ section.section3 {
             height: 581px;
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
             div.column {
                 width: 405px;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                div.photo{
+                @media (max-width:1315px) {
+                    margin-right: 15px;
+                }
+                img {
+                    position: relative;
                     width: 100%;
                     height: 285px;
-                    border: 2px solid black;
+                    
+                    object-fit: cover;
                 }
                 div.text {
                     width: 100%;

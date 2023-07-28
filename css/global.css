@@ -372,8 +372,58 @@ section.section2 > div.container > div {
   max-width: 1203px;
   width: 100%;
 }
+@media (max-width: 1140px) {
+  section.section2 > div.container > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+section.section2 > div.container > div > h6 {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  display: none;
+}
+@media (max-width: 1140px) {
+  section.section2 > div.container > div > h6 {
+    display: inline-block;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+}
+section.section2 > div.container > div > p {
+  color: var(--dark-blue, #282938);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 405px;
+  width: 100%;
+  opacity: 0.6999999881;
+  display: none;
+}
+@media (max-width: 1140px) {
+  section.section2 > div.container > div > p {
+    display: inline-block;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+}
 section.section2 > div.container > div > div.title {
-  width: 405px;
+  max-width: 405px;
+  width: 100%;
   height: 184px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -386,6 +436,12 @@ section.section2 > div.container > div > div.title {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 1140px) {
+  section.section2 > div.container > div > div.title {
+    width: auto;
+    height: auto;
+  }
+}
 section.section2 > div.container > div > div.title h6 {
   color: var(--dark-blue, #282938);
   font-family: "Poppins", sans-serif;
@@ -393,6 +449,11 @@ section.section2 > div.container > div > div.title h6 {
   font-style: normal;
   font-weight: 600;
   line-height: 64px;
+}
+@media (max-width: 1140px) {
+  section.section2 > div.container > div > div.title h6 {
+    display: none;
+  }
 }
 section.section2 > div.container > div > div.title p {
   color: var(--dark-blue, #282938);
@@ -403,8 +464,14 @@ section.section2 > div.container > div > div.title p {
   line-height: 28px;
   opacity: 0.6999999881;
 }
-section.section2 > div.container > div > div.title > div {
-  width: 215px;
+@media (max-width: 1140px) {
+  section.section2 > div.container > div > div.title p {
+    display: none;
+  }
+}
+section.section2 > div.container > div > div.title > div.link {
+  max-width: 215px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,7 +482,7 @@ section.section2 > div.container > div > div.title > div {
       -ms-flex-align: center;
           align-items: center;
 }
-section.section2 > div.container > div > div.title > div h4 {
+section.section2 > div.container > div > div.title > div.link h4 {
   color: #2405F2;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -423,7 +490,12 @@ section.section2 > div.container > div > div.title > div h4 {
   font-weight: 500;
   line-height: 32px;
 }
-section.section2 > div.container > div > div.title > div .fa-solid {
+@media (max-width: 1140px) {
+  section.section2 > div.container > div > div.title > div.link h4 {
+    margin-right: 8px;
+  }
+}
+section.section2 > div.container > div > div.title > div.link .fa-solid {
   color: #2405F2;
 }
 section.section2 > div.container > div > div.title div.link:hover {
@@ -436,7 +508,8 @@ section.section2 > div.container > div > div.title div.link:hover .fa-solid {
   color: #1C1E53;
 }
 section.section2 > div.container > div div.goals {
-  width: 631px;
+  max-width: 631px;
+  width: 100%;
   height: 404px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -448,7 +521,8 @@ section.section2 > div.container > div div.goals {
       flex-wrap: wrap;
 }
 section.section2 > div.container > div div.goals > div {
-  width: 300px;
+  max-width: 300px;
+  width: 80%;
   height: 178px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,6 +534,12 @@ section.section2 > div.container > div div.goals > div {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border: epx solid black;
+}
+@media (max-width: 640px) {
+  section.section2 > div.container > div div.goals > div {
+    max-width: 250px;
+  }
 }
 section.section2 > div.container > div div.goals > div .icon {
   width: 50px;
@@ -521,6 +601,11 @@ section.section2 > div.container > div div.goals .bottomdiv {
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
+@media (max-width: 1140px) {
+  section.section2 > div.container > div div.goals .bottomdiv {
+    margin-bottom: 32px;
+  }
+}
 
 section.section3 div.container {
   max-width: 1280px;
@@ -545,6 +630,8 @@ section.section3 div.container div.blogs {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 section.section3 div.container div.blogs div.column {
   width: 405px;
@@ -560,10 +647,17 @@ section.section3 div.container div.blogs div.column {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section.section3 div.container div.blogs div.column div.photo {
+@media (max-width: 1315px) {
+  section.section3 div.container div.blogs div.column {
+    margin-right: 15px;
+  }
+}
+section.section3 div.container div.blogs div.column img {
+  position: relative;
   width: 100%;
   height: 285px;
-  border: 2px solid black;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 section.section3 div.container div.blogs div.column div.text {
   width: 100%;
