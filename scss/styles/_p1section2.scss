@@ -17,6 +17,7 @@ section.section2 {
                 align-items: center;
                 justify-content: center;
             }
+           
             & > h6 {
                 color: $dark-blue;
                 font-family: $font;
@@ -127,8 +128,9 @@ section.section2 {
                 flex-wrap: wrap;
                 height: 100%;
                 @media (max-width:530px) {
-                    align-items: centerS;
+                    justify-content: center;
                 }
+
                 & > div {
                     max-width: 300px;
                     width: 80%;

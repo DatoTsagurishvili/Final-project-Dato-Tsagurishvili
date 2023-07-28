@@ -525,9 +525,9 @@ section.section2 > div.container > div div.goals {
 }
 @media (max-width: 530px) {
   section.section2 > div.container > div div.goals {
-    -webkit-box-align: centerS;
-        -ms-flex-align: centerS;
-            align-items: centerS;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 section.section2 > div.container > div div.goals > div {
