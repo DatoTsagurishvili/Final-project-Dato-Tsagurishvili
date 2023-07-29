@@ -9,6 +9,12 @@ section.section3 {
             font-weight: 600;
             line-height: 64px; 
             margin-bottom: 64px;
+            @media (max-width: 884px) {
+                text-align: center;
+            }
+            @media (max-width: 440px) {
+                font-size: 42px;
+            }
         }
         div.blogs {
             width: 100%;
@@ -26,7 +32,7 @@ section.section3 {
                 flex-direction: column;
                 justify-content: space-between;
                 @media (max-width:1315px) {
-                    margin:0 15px 16px 0;
+                    margin:0 15px 32px 0;
                 }
                 img {
                     position: relative;

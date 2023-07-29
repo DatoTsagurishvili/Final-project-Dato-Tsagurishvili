@@ -1,6 +1,9 @@
 section.section1 {
     background-color: $headerbackcolor;
     padding: 126px 0 128px;
+    @media (max-width: 440px) {
+        padding: 63px 0 64px;
+    }
     & > div.container {
         @include container;
         display: flex;
@@ -31,6 +34,7 @@ section.section1 {
             @media (max-width:440px) {
                 font-size: 27px;
                 line-height: 37px;
+                margin-bottom: 14px;
             }
         }
         p {
@@ -41,13 +45,16 @@ section.section1 {
             font-weight: 400;
             line-height: 28px; 
             margin-bottom: 48px;
+            @media (max-width: 440px) {
+                margin-bottom: 30px;
+            }
         }
         & > .buttons {
             display: flex;
             justify-content: space-between;
             max-width: 408px;
             width: 100%;
-            @media (max-width:415px) {
+            @media (max-width: 440px) {
                 flex-direction: column;
             }
             .b1 {
@@ -60,6 +67,10 @@ section.section1 {
                 justify-content: center;
                 align-items: center;
                 @extend %hoverbutton;
+                @media (max-width:440px) {
+                    max-width: 190px;
+                    height: 52.9px;
+                }
                 h6 {
                     color: #1B1C2B;
                     font-family: $font2;
@@ -68,6 +79,9 @@ section.section1 {
                     font-weight: 600;
                     line-height: 32px;
                     @extend %hoverbutton;
+                    @media (max-width:440px) {
+                        font-size: 15px;
+                    }
                 } 
             }
             .b1:hover {
@@ -90,6 +104,10 @@ section.section1 {
                     align-items: center;
                     justify-content: center;
                 }
+                @media (max-width:440px) {
+                    max-width: 190px;
+                    height: 52.9px;
+                }
                 h6 {
                     color: $white;
                     font-family: $font;
@@ -99,6 +117,9 @@ section.section1 {
                     line-height: 28px; 
                     @media (max-width:1135px) {
                         margin-right: 16px;
+                    }
+                    @media (max-width:440px) {
+                        font-size: 15px;
                     }
                 }
             }
