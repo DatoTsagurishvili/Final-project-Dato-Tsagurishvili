@@ -1486,6 +1486,12 @@ section.artsect2 div.container div.blogs {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media (max-width: 1155px) {
+  section.artsect2 div.container div.blogs {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 section.artsect2 div.container div.blogs div.column {
   width: 405px;
   height: 100%;
@@ -1501,9 +1507,27 @@ section.artsect2 div.container div.blogs div.column {
           justify-content: space-between;
   margin-bottom: 64px;
 }
+@media (max-width: 1315px) {
+  section.artsect2 div.container div.blogs div.column {
+    width: 355px;
+  }
+}
+@media (max-width: 1155px) {
+  section.artsect2 div.container div.blogs div.column {
+    margin-right: 15px;
+    width: 405px;
+  }
+}
+@media (max-width: 840px) {
+  section.artsect2 div.container div.blogs div.column {
+    margin-right: 0;
+  }
+}
 section.artsect2 div.container div.blogs div.column .photo {
   width: 100%;
   height: 285px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 section.artsect2 div.container div.blogs div.column div.text {
   width: 100%;
@@ -1519,14 +1543,35 @@ section.artsect2 div.container div.blogs div.column div.text {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 1155px) {
+  section.artsect2 div.container div.blogs div.column div.text {
+    height: 219px;
+  }
+}
+@media (max-width: 840px) {
+  section.artsect2 div.container div.blogs div.column div.text {
+    height: 214px;
+  }
+}
+@media (max-width: 700px) {
+  section.artsect2 div.container div.blogs div.column div.text {
+    height: 204px;
+  }
+}
 section.artsect2 div.container div.blogs div.column div.text h6 {
   color: var(--dark-blue, #282938);
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 28px; /* 175% */
   opacity: 0.6999999881;
+}
+@media (max-width: 840px) {
+  section.artsect2 div.container div.blogs div.column div.text h6 {
+    font-size: 14px;
+    line-height: 24.5px;
+  }
 }
 section.artsect2 div.container div.blogs div.column div.text h1 {
   color: var(--dark-blue, #282938);
@@ -1534,7 +1579,31 @@ section.artsect2 div.container div.blogs div.column div.text h1 {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px;
+  line-height: 36px; /* 150% */
+}
+@media (max-width: 1315px) {
+  section.artsect2 div.container div.blogs div.column div.text h1 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 1155px) {
+  section.artsect2 div.container div.blogs div.column div.text h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 840px) {
+  section.artsect2 div.container div.blogs div.column div.text h1 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 700px) {
+  section.artsect2 div.container div.blogs div.column div.text h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 section.artsect2 div.container div.blogs div.column div.text p {
   color: var(--dark-blue, #282938);
@@ -1542,8 +1611,14 @@ section.artsect2 div.container div.blogs div.column div.text p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 28px; /* 175% */
   opacity: 0.6999999881;
+}
+@media (max-width: 700px) {
+  section.artsect2 div.container div.blogs div.column div.text p {
+    font-size: 14px;
+    line-height: 24.5px;
+  }
 }
 section.artsect2 div.container div.blogs div.column div.arrow {
   width: 123px;
@@ -1563,7 +1638,7 @@ section.artsect2 div.container div.blogs div.column div.arrow h3 {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 28px; /* 175% */
 }
 section.artsect2 div.container div.blogs div.column div.arrow .fa-solid {
   color: var(--dark-blue, #282938);

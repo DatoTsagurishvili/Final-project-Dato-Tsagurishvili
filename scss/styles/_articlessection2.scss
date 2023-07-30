@@ -20,6 +20,9 @@ section.artsect2 {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            @media (max-width:1155px) {
+                justify-content: space-around;
+            }
             div.column {
                 width: 405px;
                 height: 100%;
@@ -27,9 +30,20 @@ section.artsect2 {
                 flex-direction: column;
                 justify-content: space-between;
                 margin-bottom: 64px;
+                @media (max-width:1315px) {
+                    width: 355px;
+                }
+                @media (max-width:1155px) {
+                    margin-right: 15px;
+                    width: 405px;
+                }
+                @media (max-width:840px) {
+                    margin-right: 0;
+                }
                 .photo{
                     width: 100%;
                     height: 285px;
+                    object-fit: cover;
                 }
                 div.text {
                     width: 100%;
@@ -37,14 +51,27 @@ section.artsect2 {
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    @media (max-width:1155px) {
+                        height: 219px;
+                    }
+                    @media (max-width:840px) {
+                        height: 214px;
+                    }
+                    @media (max-width:700px) {
+                        height: 204px;
+                    }
                     h6 {
                         color: $dark-blue;
                         font-family: $font;
                         font-size: 16px;
                         font-style: normal;
                         font-weight: 500;
-                        line-height: 28px; 
+                        line-height: 28px; /* 175% */
                         opacity: 0.699999988079071;
+                        @media (max-width:840px) {
+                            font-size: 14px;
+                            line-height: 24.5px;
+                        }
                     }
                     h1 {
                         color: $dark-blue;
@@ -52,7 +79,23 @@ section.artsect2 {
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 500;
-                        line-height: 36px; 
+                        line-height: 36px; /* 150% */
+                        @media (max-width:1315px) {
+                            font-size: 22px;
+                            line-height: 33px;
+                        }
+                        @media (max-width:1155px) {
+                            font-size: 24px;
+                            line-height: 36px;
+                        }
+                        @media (max-width:840px) {
+                            font-size: 22px;
+                            line-height: 33px;
+                        }
+                        @media (max-width:700px) {
+                            font-size: 20px;
+                            line-height: 30px;
+                        }
                     }
                     p {
                         color: $dark-blue;
@@ -60,8 +103,12 @@ section.artsect2 {
                         font-size: 16px;
                         font-style: normal;
                         font-weight: 400;
-                        line-height: 28px; 
+                        line-height: 28px; /* 175% */
                         opacity: 0.699999988079071;
+                        @media (max-width:700px) {
+                            font-size: 14px;
+                            line-height: 24.5px;
+                        }
                     }
                 }
                 div.arrow {
@@ -75,7 +122,7 @@ section.artsect2 {
                         font-size: 16px;
                         font-style: normal;
                         font-weight: 500;
-                        line-height: 28px; 
+                        line-height: 28px; /* 175% */ 
                     }
                     .fa-solid {
                         color: $dark-blue;
@@ -87,4 +134,4 @@ section.artsect2 {
             }
         }
     }
-}
+} 
