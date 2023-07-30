@@ -970,6 +970,11 @@ section.p2section2 {
   background-color: var(--accent, #EEF4FA);
   padding: 128px 0 128px;
 }
+@media (max-width: 1115px) {
+  section.p2section2 {
+    padding: 64px 0 64px;
+  }
+}
 section.p2section2 > div.container {
   max-width: 1280px;
   width: 95%;
@@ -978,10 +983,21 @@ section.p2section2 > div.container {
 section.p2section2 > div.container > div.card {
   margin-bottom: 96px;
 }
+@media (max-width: 1115px) {
+  section.p2section2 > div.container > div.card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
 section.p2section2 > div.container > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -989,8 +1005,34 @@ section.p2section2 > div.container > div {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 1115px) {
+  section.p2section2 > div.container > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+}
 section.p2section2 > div.container > div > div.text {
   width: 623px;
+}
+@media (max-width: 1245px) {
+  section.p2section2 > div.container > div > div.text {
+    width: 590px;
+  }
+}
+@media (max-width: 1210px) {
+  section.p2section2 > div.container > div > div.text {
+    width: 500px;
+  }
+}
+@media (max-width: 1115px) {
+  section.p2section2 > div.container > div > div.text {
+    max-width: 515px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
 }
 section.p2section2 > div.container > div > div.text h6 {
   color: var(--dark-blue, #282938);
@@ -1001,6 +1043,12 @@ section.p2section2 > div.container > div > div.text h6 {
   line-height: 28px;
   margin-bottom: 16px;
 }
+@media (max-width: 630px) {
+  section.p2section2 > div.container > div > div.text h6 {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+}
 section.p2section2 > div.container > div > div.text h1 {
   color: var(--dark-blue, #282938);
   font-family: "Poppins", sans-serif;
@@ -1009,6 +1057,12 @@ section.p2section2 > div.container > div > div.text h1 {
   font-weight: 600;
   line-height: 56px;
   margin-bottom: 16px;
+}
+@media (max-width: 630px) {
+  section.p2section2 > div.container > div > div.text h1 {
+    font-size: 30px;
+    line-height: 42px;
+  }
 }
 section.p2section2 > div.container > div > div.text p {
   color: var(--dark-blue, #282938);
@@ -1020,8 +1074,15 @@ section.p2section2 > div.container > div > div.text p {
   opacity: 0.6999999881;
   width: 100%;
 }
+@media (max-width: 630px) {
+  section.p2section2 > div.container > div > div.text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
 section.p2section2 > div.container > div > .image {
-  width: 515px;
+  max-width: 515px;
+  width: 100%;
   height: 336px;
   -o-object-fit: cover;
      object-fit: cover;
