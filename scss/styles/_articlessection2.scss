@@ -1,78 +1,90 @@
-section.artsect1 {
-    margin: 128px 0 128px;
-    & > div {
+section.artsect2 {
+    margin-bottom: 64px;
+    div.container {
         @include container;
         display: flex;
         flex-direction: column;
         align-items: center;
-        h1 {
+        h5 {
             color: $dark-blue;
-            text-align: center;
             font-family: $font;
             font-size: 48px;
             font-style: normal;
             font-weight: 600;
-            line-height: 64px; /* 133.333% */
-            margin-bottom: 16px;
-           
+            line-height: 64px; 
+            margin-bottom: 64px;
         }
-        & > div.texts {
+        div.blogs {
+            width: 100%;
+            // height: 581px;
             display: flex;
             justify-content: space-between;
-            max-width: 359px;
-            width: 97%;
-            margin-bottom: 32px;
-            h6 {
-                color: $dark-blue;
-                font-family: $font;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 28px; /* 175% */
-                opacity: 0.8700000047683716;
+            flex-wrap: wrap;
+            div.column {
+                width: 405px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 64px;
+                .photo{
+                    width: 100%;
+                    height: 285px;
+                }
+                div.text {
+                    width: 100%;
+                    height: 224px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h6 {
+                        color: $dark-blue;
+                        font-family: $font;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 28px; 
+                        opacity: 0.699999988079071;
+                    }
+                    h1 {
+                        color: $dark-blue;
+                        font-family: $font;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 36px; 
+                    }
+                    p {
+                        color: $dark-blue;
+                        font-family: $font;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px; 
+                        opacity: 0.699999988079071;
+                    }
+                }
+                div.arrow {
+                    width: 123px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h3 {
+                        color: $dark-blue;
+                        font-family: $font;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 28px; 
+                    }
+                    .fa-solid {
+                        color: $dark-blue;
+                    }
+                }
+                div.arrow:hover {
+                    cursor: pointer;
+                }
             }
-            h5 {
-                color: $dark-blue;
-                font-family: $font;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 28px; /* 175% */
-            }
-        }
-        & > div.photo {
-            border: 2px solid black;
-            width: 100%;
-            height: 477px;
-            object-fit: contain;
-            object-position: center;
-            margin-bottom: 48px;
-        }
-        p {
-            max-width: 831px;
-            width: 97%;
-            color: $dark-blue;
-            font-family: $font;
-            text-align: center;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 28px; /* 175% */
-            margin-bottom: 16px;
-            opacity: 0.699999988079071;
-        }
-        h2 {
-            color: $royalblue;
-            text-align: center;
-            font-family: $font;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 28px; /* 175% */
-        }
-        h2:hover {
-            cursor: pointer;
-            color: $hroyalblue;
         }
     }
 }
