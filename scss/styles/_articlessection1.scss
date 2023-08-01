@@ -104,7 +104,7 @@ section.artsect1 {
                 line-height: 24.5px;
             }
         }
-        h2 {
+        a {
             color: $royalblue;
             text-align: center;
             font-family: $font;
@@ -117,7 +117,7 @@ section.artsect1 {
                 line-height: 24.5px;
             }
         }
-        h2:hover {
+        a:hover {
             cursor: pointer;
             color: $hroyalblue;
         }

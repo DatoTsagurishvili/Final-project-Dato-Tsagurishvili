@@ -1489,7 +1489,7 @@ section.artsect1 > div p {
     line-height: 24.5px;
   }
 }
-section.artsect1 > div h2 {
+section.artsect1 > div a {
   color: #2405F2;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -1499,12 +1499,12 @@ section.artsect1 > div h2 {
   line-height: 28px; /* 175% */
 }
 @media (max-width: 670px) {
-  section.artsect1 > div h2 {
+  section.artsect1 > div a {
     font-size: 14px;
     line-height: 24.5px;
   }
 }
-section.artsect1 > div h2:hover {
+section.artsect1 > div a:hover {
   cursor: pointer;
   color: #1C1E53;
 }
@@ -1706,6 +1706,33 @@ section.artsect2 div.container div.blogs div.column div.arrow .fa-solid {
 }
 section.artsect2 div.container div.blogs div.column div.arrow:hover {
   cursor: pointer;
+}
+
+section.articlessection3 div.container {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+  max-width: 840px;
+}
+section.articlessection3 div.container h1 {
+  width: 100%;
+  color: var(--dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+  margin-bottom: 32px;
+}
+section.articlessection3 div.container p {
+  margin-bottom: 40px;
+  width: 100%;
+  color: var(--dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
 
 footer {
