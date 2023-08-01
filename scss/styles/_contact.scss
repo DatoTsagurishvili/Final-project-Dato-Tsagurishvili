@@ -6,6 +6,9 @@ section.contactsection {
         max-width: 562px;
         width: 95%;
         margin-bottom: 64px;
+        @media (max-width:600px) {
+            max-width: 511px;
+        }
        
         h1 {
             color: $dark-blue;
@@ -14,7 +17,15 @@ section.contactsection {
             font-size: 48px;
             font-style: normal;
             font-weight: 600;
-            line-height: 64px; 
+            line-height: 64px; /* 133.333% */
+            @media (max-width:600px) {
+                font-size: 44px;
+                line-height: 59px;
+            }
+            @media (max-width:485px) {
+                font-size: 40px;
+                line-height: 53.4px;
+            }
         }
         h5 {
             color: $dark-blue;
@@ -24,6 +35,15 @@ section.contactsection {
             font-style: normal;
             font-weight: 400;
             line-height: 28px; 
+            @media (max-width:600px) {
+                font-size: 14px;
+                line-height: 24.5px;
+                width: 100%;
+            }
+            @media (max-width:485px) {
+                font-size: 12px;
+                line-height: 21px;
+            }
         }
     }
     div.forms {
@@ -51,9 +71,7 @@ section.contactsection {
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 24px;
-                border: 2px solid black;
                 @media (max-width:976px) {
-                    
                     width: 100%;
                 }
                 

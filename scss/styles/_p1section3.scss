@@ -34,12 +34,17 @@ section.section3 {
                 @media (max-width:1315px) {
                     margin:0 15px 32px 0;
                 }
+                @media (max-width:750px) {
+                    margin-right: 0;
+                }
                 img {
                     position: relative;
                     width: 100%;
                     height: 285px;
-                    
                     object-fit: cover;
+                    @media (max-width:440px) {
+                        height: 235px;
+                    }
                 }
                 div.text {
                     width: 100%;

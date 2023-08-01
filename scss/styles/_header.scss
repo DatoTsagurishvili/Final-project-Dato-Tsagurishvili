@@ -16,10 +16,8 @@ header {
             cursor: pointer;
         }
         nav {
-            width: 706px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
             @media (max-width:860px) {
                 width: auto;
             }
@@ -59,11 +57,15 @@ header {
                 @media (max-width:860px) {
                     display: none;
                 }
-                @extend %ul;
+                display: flex;
+                margin-right: 16px;
                 a.page {
                     @extend %arefresh;
                     color: $white;
             
+                }
+                li {
+                    margin-right: 32px
                 }
                 a {
                    @extend %aswitch;

@@ -104,6 +104,9 @@ section.section2 {
                         @media (max-width:1140px) {
                             margin-right: 8px;
                         }
+                        @media (max-width:525px) {
+                            font-size: 16px;
+                        }
                     }
                     .fa-solid {
                         color: $royalblue;
@@ -161,7 +164,7 @@ section.section2 {
                             font-size: 18px;
                             font-style: normal;
                             font-weight: 500;
-                            line-height: 32px; 
+                            line-height: 32px;
                         }
                     } 
                     div.texts {
@@ -178,6 +181,10 @@ section.section2 {
                             font-style: normal;
                             font-weight: 500;
                             line-height: 48px;
+                            @media (max-width:525px) {
+                                font-size: 30px;
+                                line-height: 45px;
+                            }
                         }
                         p {
                             color: $dark-blue;
@@ -186,6 +193,10 @@ section.section2 {
                             font-style: normal;
                             font-weight: 400;
                             line-height: 28px; 
+                            @media (max-width:525px) {
+                                font-size: 14px;
+                                line-height: 24.5px;
+                            }
                         }
                     }                  
                 }

@@ -61,7 +61,7 @@ a {
           box-sizing: border-box;
 }
 
-footer .footer2 div ul, header .container nav ul {
+footer .footer2 div ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,16 +127,12 @@ header .container img:hover {
   cursor: pointer;
 }
 header .container nav {
-  width: 706px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 @media (max-width: 860px) {
   header .container nav {
@@ -187,6 +183,12 @@ header .container nav .fa-bars {
     display: inline-block;
   }
 }
+header .container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 16px;
+}
 @media (max-width: 860px) {
   header .container nav ul {
     display: none;
@@ -194,6 +196,9 @@ header .container nav .fa-bars {
 }
 header .container nav ul a.page {
   color: var(--white, #FFF);
+}
+header .container nav ul li {
+  margin-right: 32px;
 }
 header .container nav ul a {
   color: #BBBBCB;
@@ -542,6 +547,11 @@ section.section2 > div.container > div > div.title > div.link h4 {
     margin-right: 8px;
   }
 }
+@media (max-width: 525px) {
+  section.section2 > div.container > div > div.title > div.link h4 {
+    font-size: 16px;
+  }
+}
 section.section2 > div.container > div > div.title > div.link .fa-solid {
   color: #2405F2;
 }
@@ -645,6 +655,12 @@ section.section2 > div.container > div div.goals > div div.texts h3 {
   font-weight: 500;
   line-height: 48px;
 }
+@media (max-width: 525px) {
+  section.section2 > div.container > div div.goals > div div.texts h3 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
 section.section2 > div.container > div div.goals > div div.texts p {
   color: var(--dark-blue, #282938);
   font-family: "Poppins", sans-serif;
@@ -652,6 +668,12 @@ section.section2 > div.container > div div.goals > div div.texts p {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+}
+@media (max-width: 525px) {
+  section.section2 > div.container > div div.goals > div div.texts p {
+    font-size: 14px;
+    line-height: 24.5px;
+  }
 }
 section.section2 > div.container > div div.goals .bottomdiv {
   -ms-flex-item-align: end;
@@ -725,12 +747,22 @@ section.section3 div.container div.blogs div.column {
     margin: 0 15px 32px 0;
   }
 }
+@media (max-width: 750px) {
+  section.section3 div.container div.blogs div.column {
+    margin-right: 0;
+  }
+}
 section.section3 div.container div.blogs div.column img {
   position: relative;
   width: 100%;
   height: 285px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (max-width: 440px) {
+  section.section3 div.container div.blogs div.column img {
+    height: 235px;
+  }
 }
 section.section3 div.container div.blogs div.column div.text {
   width: 100%;
@@ -1099,6 +1131,11 @@ section.contactsection div.title {
   width: 95%;
   margin-bottom: 64px;
 }
+@media (max-width: 600px) {
+  section.contactsection div.title {
+    max-width: 511px;
+  }
+}
 section.contactsection div.title h1 {
   color: var(--dark-blue, #282938);
   text-align: center;
@@ -1106,7 +1143,19 @@ section.contactsection div.title h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  line-height: 64px;
+  line-height: 64px; /* 133.333% */
+}
+@media (max-width: 600px) {
+  section.contactsection div.title h1 {
+    font-size: 44px;
+    line-height: 59px;
+  }
+}
+@media (max-width: 485px) {
+  section.contactsection div.title h1 {
+    font-size: 40px;
+    line-height: 53.4px;
+  }
 }
 section.contactsection div.title h5 {
   color: var(--dark-blue, #282938);
@@ -1116,6 +1165,19 @@ section.contactsection div.title h5 {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+}
+@media (max-width: 600px) {
+  section.contactsection div.title h5 {
+    font-size: 14px;
+    line-height: 24.5px;
+    width: 100%;
+  }
+}
+@media (max-width: 485px) {
+  section.contactsection div.title h5 {
+    font-size: 12px;
+    line-height: 21px;
+  }
 }
 section.contactsection div.forms {
   max-width: 1280px;
@@ -1161,7 +1223,6 @@ section.contactsection div.forms > div form {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 24px;
-  border: 2px solid black;
 }
 @media (max-width: 976px) {
   section.contactsection div.forms > div form {
