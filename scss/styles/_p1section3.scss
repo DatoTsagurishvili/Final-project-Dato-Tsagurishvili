@@ -101,6 +101,10 @@ section.section3 {
                         font-style: normal;
                         font-weight: 500;
                         line-height: 28px; 
+                        @media (max-width:440px) {
+                            font-size: 14px;
+                            line-height: 24.5px;
+                        }
                     }
                     .fa-solid {
                         color: $dark-blue;
