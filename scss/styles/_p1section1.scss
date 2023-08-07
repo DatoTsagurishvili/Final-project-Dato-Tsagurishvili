@@ -8,7 +8,7 @@ section.section1 {
         @include container;
         display: flex;
         justify-content: space-between;
-        @media (max-width:1135px) {
+        @media (max-width:1130px) {
             flex-direction: column;
             align-items: center;
         }
@@ -16,6 +16,7 @@ section.section1 {
         max-width: 582px;
         width: 100%;
         margin-bottom: 40px;
+        margin-right: 16px;
         h1 {
             color: $white;
             font-family: $font;

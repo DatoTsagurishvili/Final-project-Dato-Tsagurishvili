@@ -30,7 +30,6 @@ section.section3 {
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
                 @media (max-width:1315px) {
                     margin:0 15px 32px 0;
                 }
@@ -63,7 +62,6 @@ section.section3 {
                         font-weight: 500;
                         line-height: 28px; 
                         opacity: 0.699999988079071;
-                        height: 100%;
                     }
                     h1 {
                         color: $dark-blue;
@@ -94,7 +92,7 @@ section.section3 {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    h3 {
+                    a {
                         color: $dark-blue;
                         font-family: $font;
                         font-size: 16px;
