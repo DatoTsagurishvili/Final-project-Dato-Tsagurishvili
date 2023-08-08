@@ -1783,12 +1783,14 @@ section.articlessection1 div.container h1 {
   section.articlessection1 div.container h1 {
     font-size: 34px;
     line-height: 50px;
+    margin-bottom: 26px;
   }
 }
 @media (max-width: 510px) {
   section.articlessection1 div.container h1 {
     font-size: 20px;
     line-height: 26.6px;
+    margin-bottom: 18px;
   }
 }
 section.articlessection1 div.container p {
@@ -1811,6 +1813,18 @@ section.articlessection1 div.container p {
   section.articlessection1 div.container p {
     font-size: 14px;
     line-height: 24.5px;
+  }
+}
+section.articlessection1 div.container img {
+  width: 100%;
+  height: 311px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 56px;
+}
+@media (max-width: 680px) {
+  section.articlessection1 div.container img {
+    margin-bottom: 30px;
   }
 }
 
